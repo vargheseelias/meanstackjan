@@ -1,0 +1,34 @@
+header{
+    height: 50px;
+    width:50%;
+   color: gold;
+    background-color: darkmagenta;
+}
+
+div{
+    width: 50%;
+    background-color: dimgrey;
+}
+
+#mi{
+  background-color: chartreuse; 
+  border: 10px solid #6aad6b;
+  border-top: 12px solid #ad6a71;
+  border-right: 10px solid #013d0c;
+
+   
+}
+#h{
+    color: crimson;
+    text-align: center;
+    text-decoration: underline solid #cc04a7;
+}
+
+li{
+    color: white;
+}
+
+.cls{
+color: chocolate;
+font-weight: 900;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
