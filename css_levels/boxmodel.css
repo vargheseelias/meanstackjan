@@ -1,0 +1,29 @@
+
+#top{
+    position:relative;
+    left: 40%;
+    bottom: 20%;
+    background-color: chocolate;
+    border-style:solid;
+    border-color: darkblue;
+    border-width: 6px;
+    width: 40%;
+    /* margin-left: 50%; */
+    /* padding-left: 5%; */
+}
+
+
+#bottom{
+    background-color:darkgreen;
+    border-style:solid;
+    border-color: darkblue;
+    border-width: 6px;
+    width: 40%;
+    margin-top: 40%;
+    margin-left: 50%;
+    
+}
+h3{
+    font-family: 'Potta One', cursive;
+
+}
