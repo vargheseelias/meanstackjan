@@ -1,7 +1,7 @@
 
 #top{
     position:relative;
-    left: 40%;
+    left: 30%;
     bottom: 20%;
     background-color: chocolate;
     border-style:solid;
@@ -26,4 +26,7 @@
 h3{
     font-family: 'Potta One', cursive;
 
+}
+#abc{
+margin-left: 10%;
 }
