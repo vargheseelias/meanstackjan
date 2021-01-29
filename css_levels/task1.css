@@ -1,0 +1,55 @@
+#head{
+    font-family: 'Hachi Maru Pop', cursive;
+    text-align: center;
+    
+}
+   
+#block1{
+    margin-left: 5%;
+    position:relative;
+    /* left: 0%; */
+    float:left;
+    bottom: 20%;
+    background-color: burlywood;
+    height: 500px;
+    width: 15%;
+}
+#block2{
+    margin-left: 2%;
+    position:relative;
+    float:left;
+    bottom: 20%;
+    background-color:cadetblue;
+    height: 500px;
+    width: 15%;
+}
+#block3{
+    margin-left: 2%;
+    position:relative;
+    /* left: 42%; */
+    float:left;
+    bottom: 20%;
+    background-color:cornflowerblue;
+    height: 500px;
+    width: 15%;
+}
+#block4{
+    margin-left: 2%;
+    position:relative;
+    /* left: 63%; */
+    float:left;
+    bottom: 20%;
+    background-color:darkgoldenrod;
+    height: 500px;
+    width: 15%;
+}
+#block5{
+    margin-left: 2%;
+    position:relative;
+    /* left: 84%; */
+    float:left;
+    bottom: 20%;
+    background-color:darkolivegreen;
+    height: 500px;
+    width: 15%;
+}
