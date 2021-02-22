@@ -1,6 +1,7 @@
 .first{
     line-height: 30px;
-    margin-top: 8%;
+    margin-top: 12%;
+    
 }
 
 .lumhead{
@@ -26,3 +27,85 @@ span{
     background-color: white;
     color:#5e068a ;
 }
+
+.image{
+  margin-left: 120px;
+}
+
+.crsehead{
+  color: #5e068a;
+  text-align: center;
+}
+
+.datalink{
+  color: #5e068a;
+  text-decoration: none;
+}
+
+.dataimg{
+  height: 350px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.coursebg{
+  background-color: #c7c1c1;
+}
+
+.datacol{
+  background-color: white;
+}
+
+
+
+.pythonimg{
+  height: 10%;
+  width: 100%;
+}
+
+.testingimg{
+  height: 10%;
+  width: 100%; 
+}
+}
+
+.mnstkimg{
+  height: 10%;
+  width: 10%;
+}
+
+.pythonlink{
+  color: #5e068a;
+  text-decoration: none;
+}
+
+.testinglink{
+  color: #5e068a;
+  text-decoration: none;
+}
+
+.mnstklink{
+  color: #5e068a;
+  text-decoration: none;
+}
+
+.crsebtn{
+  color:white;
+  background-color: #5e068a;
+  border: none;
+}
+
+.col1{
+  margin-top: 10%;
+}
+
+.col2{
+  margin-top: 10%;
+}
+
+.col3{
+  margin-top: 10%;
+}
+
+
