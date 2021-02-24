@@ -1,0 +1,106 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <script src="calc.js"></script>
+
+    <div style="align-self: center;">
+    <div class="calc container-fluid">
+
+        <input id="tex" type="text" name="input" size="16" id="answer"">
+        <br>
+
+
+        <input id="one" type="button" name="one" value="1">
+            <input id="tw" type="button" name="two" value="2">
+            <input id="thr" type="button" name="three" value="3">
+            <input id="pls" type="button" class="operator" name="plus" value="+">
+            <br>
+            <input id="fr" type="button" name="four" value="4">
+            <input id="fiv" type="button" name="five" value="5">
+            <input id="sx" type="button" name="six" value="6">
+            <input id="mns" type="button" class="operator" name="minus" value="-">
+             <br>
+             <input id="svn" type="button" name="seven" value="7">
+             <input id="egt" type="button" name="eight" value="8">
+             <input id="nin" type="button" name="nine" value="9"> 
+             <input id="mul" type="button" class="operator" name="times" value="*">
+             <br>
+             <input id="clr"  onclick="clearBox() type="button" id="clear" name="clear" value=" C ">
+             <input id="zro" type="button" name="zero" value="0">
+             <input id="eql" type="button" name="doit" value=" = ">
+             <input id='dvd' type="button" class="operator" name="div" value="/">
+             <br>
+    </div>
+</div>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Calculator</title>
+</head>
+<script src="calc.js"></script>
+<body>
+<h3> Calculator</h3>
+<br />
+<style>
+#calc {
+width: 300px;
+height: 250px;
+}
+
+#btn {
+width: 96%;
+height: 40px;
+font-size: 20px;
+}
+</style>
+
+<table id="calc">
+<tr>
+<td colspan=5><input id="inp" name="display" type="text" ></td>
+</tr>
+<tr>
+<td><input id="btn" type=button value="C" onclick="clearBox()" ></td>
+<td><input id="btn" type=button value="<" onclick="back()"></td>
+<td><input id="btn" type=button value="/"  onclick="displayBox('/')"></td>
+<td><input id="btn" type=button value="x" onclick="displayBox('x')"></td>
+</tr>
+<tr>
+<td><input id="btn" type=button value="7" onclick="displayBox('7')"></td>
+<td><input id="btn" type=button value="8" onclick="displayBox('8')"></td>
+<td><input id="btn" type=button value="9" onclick="displayBox('9')"></td>
+<td><input id="btn" type=button value="-" onclick="displayBox('-')"></td>
+</tr>
+<tr>
+<td><input id="btn" type=button value="4" onclick="displayBox('4')"></td>
+<td><input id="btn" type=button value="5" onclick="displayBox('5')"></td>
+<td><input id="btn" type=button value="6" onclick="displayBox('6')"></td>
+<td><input id="btn" type=button value="+" onclick="displayBox('+')"></td>
+</tr>
+<tr>
+<td><input id="btn" type=button value="1" onclick="displayBox('1')"></td>
+<td><input id="btn" type=button value="2" onclick="displayBox('2')"></td>
+<td><input id="btn" type=button value="3" onclick="displayBox('3')">
+</td>
+<td rowspan="2"><input id="btn" type=button value="=" onclick="result()" style="height: 82px!important;"></td>
+</tr>
+<tr>
+<td colspan=2><input id="btn" type=button value="0" onclick="displayBox('0')"></td>
+<td><input id="btn" type=button value="." onclick="displayBox('.')"></td>
+</tr>
+</table>
+</body>
+</html>
